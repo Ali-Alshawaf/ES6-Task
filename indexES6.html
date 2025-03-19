@@ -10,7 +10,7 @@
 
             <div class="fun">
                 <h2 class="name" >Ali Alshawaf</h2>
-                <input type="text" name="" id="name">
+                <input type="text" placeholder="Name" id="name">
                 <button class="ChangName" onclick="ChangName()">Chang Name</button>
             </div>
 
@@ -29,7 +29,7 @@
 
             <div class="fun">
                 <h2>List</h2>
-                <input type="text" name="" id="inputList">
+                <input type="text" placeholder="...." id="inputList">
                 <div class="list">
                     
                 </div>
@@ -39,18 +39,21 @@
 
 
             <div class="fun">
-                <h3>Add : 1</h3>
-                <h3>sub : 2</h3>
-                <h3>mul : 3</h3>
-                <h3>div : 4</h3>
+                <ol class="ordList">
+                    <li>Add</li>
+                    <li>sub</li>
+                    <li>mul</li>
+                    <li>div</li>                
+                </ol>
 
                 <input type="number" id="op" placeholder="Opration" />
                 <input type="number" id="x" placeholder="Frist Number" />
                 <input type="number" id="y" placeholder="Second Number" />
 
+                <h3>Result: <span id="result"></span></h3>
+
                 <button onclick="opration()">Calculater</button>
 
-                <h3>Result: <span id="result"></span></h3>
 
             </div>
 
